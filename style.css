@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(37, 37, 37);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: azure;
+}
+
+.firsttape {
+    border: 4px solid purple;
+    border-radius: 25px;
+    background-color: purple;
+    width: 100%;
+    height: 70px;
+    text-align: left;
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 40px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.paragraph {
+    text-align: left;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-left: 30px;
+    width: 60%; 
+    max-width: 800px;
+}
+
+
+.divider {
+    border: none;
+    border-top: 2px solid azure;
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkviolet; 
+}
+
+.slide {
+    display: none; 
+}
+
+.slide.active {
+    display: block; 
+}
+
+.flex-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.text {
+    max-width: 60%;
+    padding-left: 20px;
+}
+
+.right {
+    margin-left: 20px; 
+}
+
+img {
+    max-width: 100%;
+    height: auto; 
+}
